@@ -1,3 +1,5 @@
+# Project Specific rules here
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -102,3 +104,36 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Temporary Files
+#---------------------------
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# Emacs
+.\#*
+# Backup files
+#---------------------------
+*~
+*.orig
+*.bak
+# yyyyMMdd
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+# yyyyMMddHHmm
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+# yyyyMMddHHmmss
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+# OS dependent files
+#---------------------------
+.DS_Store
+Thumbs.db
+# Bundler specific
+#---------------------------
+/vendor/bundle/
+/.bundle/
+# Office specific
+~$*
+*.tmp
